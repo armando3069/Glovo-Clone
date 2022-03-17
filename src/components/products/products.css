@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.p{
+    background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-left: 100px;
+}
+
+.p-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    align-items: center;
+    justify-content: center;
+}
+
+#p-title{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+

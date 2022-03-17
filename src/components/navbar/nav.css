@@ -1,0 +1,38 @@
+.n{
+    width: 100%;
+    background-color:#FFC144 ;
+    position: fixed;
+    z-index: 8;
+}
+
+.n-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px ;
+}
+n-left{
+    flex:1;
+}
+
+n-right{
+    flex:1;
+
+}
+
+#n-img{
+  width: 120px;
+  height: 38px;
+
+}
+
+#n-btn{
+    padding: 12px 29px;
+    background-color:#00A082;
+    color:white;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Gotham","Arial","Helvetica Neue";
+}

@@ -1,0 +1,32 @@
+.item{
+  display: flex;
+ 
+}
+
+.item-wrapper{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 30px;
+  text-align: center;
+
+}
+
+.item-img{
+    width: 140px;
+    height: 138px;
+    object-fit: cover;
+    border-radius: 56% 44% 52% 48% / 41% 53% 47% 59% ;
+}
+.item-title{
+    position: relative;
+    top: 125px;
+    right: 100px;
+    color: black;
+    background-color:#FFC144 ;
+    padding: 10px 15px;
+    height: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+}
