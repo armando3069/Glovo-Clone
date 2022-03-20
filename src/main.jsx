@@ -8,3 +8,7 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 )
+
+git remote add origin https://github.com/armando3069/Glovo-Clone.git
+git branch -M main
+git push -u origin main
