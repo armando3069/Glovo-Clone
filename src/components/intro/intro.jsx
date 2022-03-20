@@ -25,14 +25,16 @@ function intro() {
         <p className='txt2' >Groceries, shops, pharmacies, anything!</p>
         <div className='bag'> 
         <input className='i-input' placeholder="What's your address?" />
+        
         <div className='flag'>
         <img id='flag' src={flag} />
         </div>
+
         <div className='location'>
-        <img  src={location} />
+        <img src={location} />
         <p>Use current location </p>
-        
         </div>
+
         </div>
       </div>
      </div>

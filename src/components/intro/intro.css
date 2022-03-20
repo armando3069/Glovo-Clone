@@ -48,7 +48,7 @@ i-right-wrapper{
     text-align: center;
     font-size: 4rem;
     max-width: 480px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Gotham","Arial","Helvetica Neue",Helvetica,sans-serif;
 }
 
 .txt2{
@@ -102,7 +102,9 @@ i-right-wrapper{
     display: flex;
     align-items: center;
     color: #00A082;
-    position: absolute;
-    top:10px;
-    right: 200px;
+    position: relative;
+    top:-40px;
+    left: 320px;
+    width: 176px;
+    height: 32px;
 }

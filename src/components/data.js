@@ -20,12 +20,12 @@ export  const  market =[
       },
       {
         "id":1,
-        "title":"Magic Cusin",
+        "title":"Cusin",
         "img":img3
       },
       {
         "id":1,
-        "title":"Kamora burger",
+        "title":" burger",
         "img":img4
       },
       {
@@ -45,7 +45,7 @@ export  const  market =[
       },
       {
         "id":1,
-        "title":"Katana sushi",
+        "title":" sushi",
         "img":img7
       },
    

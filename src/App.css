@@ -1,6 +1,6 @@
 .App{
   overflow: hidden;
-  
+  font-family: "Gotham","Arial","Helvetica Neue",Helvetica,sans-serif;
 }
 *{
     margin:0;
