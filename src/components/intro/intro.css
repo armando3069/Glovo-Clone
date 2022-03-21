@@ -61,6 +61,11 @@ i-right-wrapper{
  position: relative;
  margin-top: 15px;
  z-index: 3;
+ 
+}
+
+.activeBag{
+    display: none;
 }
 
 .i-input{

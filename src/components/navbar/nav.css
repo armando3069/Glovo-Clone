@@ -8,8 +8,8 @@
 .n-wrapper{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 30px 100px ;
+    align-items: flex-start;
+    padding: 30px 200px ;
 }
 n-left{
     flex:1;
@@ -36,3 +36,80 @@ n-right{
     font-weight: bold;
     font-family: "Gotham","Arial","Helvetica Neue";
 }
+
+.n-inp{
+    position: relative;
+    top: 50px;
+}
+
+.bag1{
+    position: relative;
+    z-index: 3;
+    top:30px;
+
+}
+
+.location1{
+    display: flex;
+    align-items: center;
+    color: #00A082;
+    position: relative;
+    top:-40px;
+    left: 320px;
+    width: 176px;
+    height: 32px;
+}
+
+.flag1{
+    width: 50px;
+    height: 35px;
+    padding:15px 0px 0px 0px ;
+    background-color: #00A082;
+    border-radius: 10px 0px 0px 10px;
+    position: absolute;
+    top:0px;
+    left: -2.2rem;
+}
+
+#flag1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.n-input{
+    
+    width: 500px;
+    height: 50px;
+    border-radius: 7px;
+    padding-left: 10px;
+    border: none;
+    position: relative;
+    outline: none;
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+    
+   
+}
+
+
+.n-bag{
+    font-size: 18px;
+}
+
+.bag-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.active {
+    background-color: aquamarine;
+    display: none;
+}
+

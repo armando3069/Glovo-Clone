@@ -1,4 +1,6 @@
-import React from 'react'
+import React,{useState} from 'react'
+import { NavContext } from '../context/context';
+
 import './intro.css'
 import wave from '../assets/img/intro.svg';
 import Nav from '../navbar/nav';
@@ -6,10 +8,15 @@ import flag from '../assets/img/svgexport-2.png'
 import location from '../assets/img/svgexport-3.svg'
 
 function intro() {
+
+  const[navbar,setNavbar] = useState(false);
+
   return (
     <div className='i'>
 
+  <NavContext.Provider value={{navbar,setNavbar}}>
     <Nav/> 
+  </NavContext.Provider>
 
     <div className='i-wrapper'>
 
@@ -23,7 +30,7 @@ function intro() {
       <div className='i-right-wrapper'>
         <h1 className='txt1'>Food delivery and more</h1>
         <p className='txt2' >Groceries, shops, pharmacies, anything!</p>
-        <div className='bag'> 
+        <div className={navbar ? "active" : "bag"}> 
         <input className='i-input' placeholder="What's your address?" />
         
         <div className='flag'>
