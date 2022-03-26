@@ -15,8 +15,22 @@
     flex-wrap: wrap;
     max-width: 1500px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
 }
+
+.p-items::-webkit-scrollbar {
+    display: none;
+}
+
+.p-items .wigh{
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
 
 #p-title{
     text-align: center;

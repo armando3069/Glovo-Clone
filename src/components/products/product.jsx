@@ -7,7 +7,7 @@ function product() {
     return (
         <div className='p'>
         <h1 id='p-title'>Top restaurants and more in Moldova</h1>
-        <div className="p-items">
+        <div className="p-items wigh">
         { market?.map((item,index)=>(
             
             <Items 

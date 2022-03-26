@@ -5,6 +5,7 @@ import Deliver from './components/deliver/deliver.jsx'
 import Top from './components/Top/top.jsx'
 import Down from './components/downland/down.jsx'
 import Review from './components/review/review.jsx'
+import Footer from './components/footer/footer.jsx'
 import './App.css'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Top/>
     <Down/>
     <Review/>
+    <Footer/>
     </div>
   )
 }
